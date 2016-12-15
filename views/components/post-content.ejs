@@ -11,6 +11,7 @@
 
         <div class="eight wide column">
             <div class="ui segment">
+                <div id="returns" style="padding: 0 20px;line-height: 32px;border: 1px solid #4fc08d">返回QQ</div>
                 <h3><a href="/posts/<%= post._id %>"><%= post.title %></a></h3>
                 <pre><%- post.content %></pre>
                 <div>
@@ -34,5 +35,13 @@
                 </div>
             </div>
         </div>
+
     </div>
 </div>
+<script>
+    window.onload=function(){
+        var d=document;
+        d.getElementById('returns').onclick=function () {
+        }
+    }
+</script>
